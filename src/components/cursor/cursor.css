@@ -1,0 +1,23 @@
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 99999999999;
+    mix-blend-mode: difference;
+    /* background-image: url('/cursor-bg.webp'); */
+    padding: 10px;
+    background-color: white;
+    transition: all 0.1s ease;
+    background-size: cover;
+    scale: 0.5;
+    overflow: hidden;
+}
+.cursor-text {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #fff;
+}

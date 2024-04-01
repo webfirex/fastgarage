@@ -1,0 +1,25 @@
+
+.sliderContainer{
+  background-color: #d9f99d;
+    position: absolute;
+  }
+  
+  .slider{
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .slider p{
+    position: relative;
+    margin: 0px;
+    color: #0000006f;
+    font-size: 150px;
+    font-weight: 500;
+    padding-right: 50px;
+  }
+  
+  .slider p:nth-of-type(2){
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
